@@ -1,5 +1,5 @@
-# master-stack-boot
-Bom project example
+## master-stack-boot [![Build Status](https://travis-ci.org/Allali84/master-stack-boot.svg)](https://travis-ci.org/Allali84/master-stack-boot)
 
-gradle clean
-gradle publish
+### Tasks
+ * `clean`: cleans the build folder.
+ * `publish`: generates the BOM.
