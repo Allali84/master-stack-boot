@@ -9,12 +9,14 @@ plugins {
 	`maven-publish`
 }
 
-group = "com.example"
+group = "com.allali84"
 version = "1.0.0-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
-	mavenCentral()
+	mavenLocal()
+  	mavenCentral()
+  	jcenter()
 	//maven {
 	//	url = uri("http://localhost/nexus/content/groups/public")
 	//}
