@@ -14,9 +14,10 @@ version = "1.0.0-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
-	maven {
-		url = uri("http://integration2/nexus/content/groups/public")
-	}
+	mavenCentral()
+	//maven {
+	//	url = uri("http://localhost/nexus/content/groups/public")
+	//}
 }
 
 dependencyManagement {
